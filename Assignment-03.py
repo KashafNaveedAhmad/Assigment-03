@@ -75,3 +75,12 @@ num1=int(input("Enter the obtained number:"))
 num2=int(input("Enter the total number:"))
 percentage=(num1/num2)*100
 print("The percentage is:",percentage,'%')
+
+# Write a program that calculates the BMI using height (in meters) and weight (in kilograms) variables.
+# BMI using height (in meters) and weight (in kilograms) variables.
+print("\nLet's calculate BMI (Body mass index).\nBelow:")
+Bmi_height=float(input("Enter the height(m):"))
+Bmi_weight=float(input("Enter the weight(Kg):"))
+# BMI_Formula=weight/height^2
+BMI_result=Bmi_weight/Bmi_height**2
+print("The calculated BMI is:",BMI_result)
