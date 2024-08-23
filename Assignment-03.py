@@ -6,7 +6,7 @@ import time
 print("Let's start the assignment!!")
 
 # Calculate your age based on the current year and your birth year.
-# Age using current year and birth year
+# Age 
 print("\nWe are going to calculate your age.\nBelow:")
 birth_year=int(input("Enter your birth year:"))
 current_year=int(time.strftime('%Y'))
@@ -15,7 +15,7 @@ print("Your age based on your birth year is:",age,"years old.")
 
 
 # Write a program that calculates the area of a rectangle using length and width variables.
-# Area of recatangle(length*width)
+# Area of a recatangle(length*width)
 print("\nLet's calculates the 'Area of a rectangle'.\nBelow:")
 length=float(input("Enter the lenght:"))
 width=float(input("Enter the width:"))
@@ -24,7 +24,7 @@ print("The area of rectangle is:",area)
 
 
 # Write a program that calculates the area of a circle.
-# Area of circle (Formula:(math.pi)*(radius**2))
+# Area of a circle (Formula:(math.pi)*(radius**2))
 print("\nLet's calculate the 'Area of Circle'.\nBelow:")
 radius_of_circle=float(input("Enter the radius:"))
 area_of_circle=((math.pi)*(radius_of_circle**2))
@@ -32,7 +32,7 @@ print("The area of circle is:",area_of_circle)
 
 
 # Write a program that calculates the area of the cube.
-# Area of circle (Formula:6(a^2))
+# Area of a circle (Formula:6(a^2))
 print("\nLet's calculate the 'Area of Cube'.\nBelow:")
 side_of_cube=int(input("Enter the it's side:"))
 area_of_cube=(6*(side_of_cube**2))
@@ -76,11 +76,22 @@ num2=int(input("Enter the total number:"))
 percentage=(num1/num2)*100
 print("The percentage is:",percentage,'%')
 
+
 # Write a program that calculates the BMI using height (in meters) and weight (in kilograms) variables.
-# BMI using height (in meters) and weight (in kilograms) variables.
+# BMI using height (in meters) and weight (in kilograms) variables.(Formula:weight/height^2)
 print("\nLet's calculate BMI (Body mass index).\nBelow:")
 Bmi_height=float(input("Enter the height(m):"))
 Bmi_weight=float(input("Enter the weight(Kg):"))
 # BMI_Formula=weight/height^2
 BMI_result=Bmi_weight/Bmi_height**2
 print("The calculated BMI is:",BMI_result)
+
+
+# Write a program that calculates the volume of a cylinder using the formula.
+# Area of a cylinder (Formula:A=2π*(r^2)+2πrh)
+print("\nWe are going to calculate the 'Area of Cylinder' :\nBelow:")
+height_cylinder=float(input("Enter the height:"))
+radius_cylinder=float(input("Enter the radius:"))
+cy1=2*math.pi*(radius_cylinder**2)
+cy2=2*math.pi*radius_cylinder*height_cylinder
+area_of_cylinder=print("The area of cylinder is:",cy1+cy2)
