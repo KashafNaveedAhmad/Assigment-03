@@ -11,7 +11,7 @@ print("\nWe are going to calculate your age.\nBelow:")
 birth_year=int(input("Enter your birth year:"))
 current_year=int(time.strftime('%Y'))
 age=current_year-birth_year
-print("Your age based on your birth year is:",age,"years old.2")
+print("Your age based on your birth year is:",age,"years old.")
 
 # Write a program that calculates the area of a rectangle using length and width variables.
 # Area of recatangle(length*width)
@@ -49,4 +49,16 @@ fahrenheit=(((9/5)*input_celsius)+32)
 print("The converted temperature in 'Fahrenheit' is:",fahrenheit,"°F")
 
 
+# Convert a given number of seconds into minutes and minutes into seconds using variables.
+# Seconds into Minutes (Formula:seconds/60)
+print("\nTo calculate number of seconds into minutes.\nEnter values below:")
+sec=int(input("Enter the seconds to be converted into minutes:"))
+min=float(sec/60)
+print("Based on the seconds the minutes are :",min)
+
+# Minutes into Seconds (Formula:minutes*60)
+print("\nTo calculate number of minutes into seconds.\nEnter values below:")
+min=float(input("Enter the minutes to be converted into seconds:"))
+sec=float(min*60)
+print("Based on the minutes the seconds are :",sec)
 
